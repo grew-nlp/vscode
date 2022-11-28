@@ -27,6 +27,10 @@
 			{
 				"name": "entity.other.inherited-class.grew",
 				"match": "\\b(include|import)\\b"
+			},
+			{
+				"name": "markup.heading.grew",
+				"match": "#\\b(BEGIN|END)\\b"
 			}
 		]
 		},
