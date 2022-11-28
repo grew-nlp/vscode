@@ -1,0 +1,25 @@
+{
+  "name": "grew",
+  "displayName": "Grew",
+  "description": "Grew graph rewriting support",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.73.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "grew",
+      "aliases": ["Grew", "grew"],
+      "extensions": [".grs",".req"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "grew",
+      "scopeName": "source.grew",
+      "path": "./syntaxes/grew.tmLanguage.json"
+    }]
+  }
+}
