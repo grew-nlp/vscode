@@ -13,19 +13,33 @@
 		},
 		{
 			"include": "#strings"
+		},
+		{
+			"include": "#strat_operator"
 		}
 	],
 	"repository": {
 		"keywords": {
 			"patterns": [{
 				"name": "keyword.control.grew",
-				"match": "\\b(package|pattern|without|rule|commands)\\b"
-			}]
+				"match": "\\b(strat|package|pattern|without|rule|commands)\\b"
+			},
+			{
+				"name": "entity.other.inherited-class.grew",
+				"match": "\\b(include|import)\\b"
+			}
+		]
 		},
 		"variable": {
 			"patterns": [{
 				"name": "constant.language.grew",
 				"match": "\\b(del_node|del_edge|add_edge|def_feat|shift|shift_in|shift_out|append_feats|prepend_feats)\\b"
+			}]
+		},
+		"strat_operator": {
+			"patterns": [{
+				"name": "entity.other.attribute-name.grew",
+				"match": "\\b(Onf|Seq|Iter|Alt)\\b"
 			}]
 		},
 		"comment": {
