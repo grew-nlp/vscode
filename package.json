@@ -2,7 +2,9 @@
   "name": "grew",
   "displayName": "Grew",
   "description": "Grew graph rewriting support",
-  "version": "0.0.1",
+  "version": "1.0.0",
+  "repository": "https://github.com/grew-nlp/vscode",
+  "publisher": "grew",
   "engines": {
     "vscode": "^1.73.0"
   },
