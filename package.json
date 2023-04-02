@@ -1,27 +1,44 @@
 {
-  "name": "grew",
-  "displayName": "Grew",
-  "description": "Grew graph rewriting support",
-  "version": "1.0.0",
-  "repository": "https://github.com/grew-nlp/vscode",
-  "publisher": "grew",
-  "engines": {
-    "vscode": "^1.73.0"
-  },
-  "categories": [
-    "Programming Languages"
-  ],
-  "contributes": {
-    "languages": [{
-      "id": "grew",
-      "aliases": ["Grew", "grew"],
-      "extensions": [".grs",".req"],
-      "configuration": "./language-configuration.json"
-    }],
-    "grammars": [{
-      "language": "grew",
-      "scopeName": "source.grew",
-      "path": "./syntaxes/grew.tmLanguage.json"
-    }]
-  }
+	"name": "grew",
+	"displayName": "Grew",
+	"description": "Grew graph rewriting support",
+	"version": "1.0.1",
+	"repository": "https://github.com/grew-nlp/vscode",
+	"icon": "icon.png",
+	"publisher": "grew",
+	"engines": {
+		"vscode": "^1.73.0"
+	},
+	"categories": [
+		"Programming Languages"
+	],
+	"contributes": {
+		"languages": [
+			{
+				"id": "grew",
+				"aliases": [
+					"Grew",
+					"grew"
+				],
+				"extensions": [
+					".grs",
+					".req"
+				],
+				"configuration": "./language-configuration.json"
+			}
+		],
+		"grammars": [
+			{
+				"language": "grew",
+				"scopeName": "source.grew",
+				"path": "./syntaxes/grew.tmLanguage.json"
+			}
+		]
+	},
+	"__metadata": {
+		"id": "b68cb1e2-1216-4b88-ad2f-2096bd9cd45b",
+		"publisherDisplayName": "grew",
+		"publisherId": "cb259018-fd35-490d-bac5-87f51ee710a6",
+		"isPreReleaseVersion": false
+	}
 }
