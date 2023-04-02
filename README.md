@@ -9,6 +9,11 @@ It can be used with file extensions:
 
 ## Release Notes
 
-### 1.0.0
+### [1.1.0] - 2023-04-02
+- Fix command list
 
-Initial release of Grew extension
+#### [1.0.1] - 2023-01-29
+- Add logo
+
+### [1.0.0] - 2023-01-29
+- Initial release, implementing syntax of Grew version 1.11

@@ -37,7 +37,7 @@
 		"variable": {
 			"patterns": [{
 				"name": "constant.language.grew",
-				"match": "\\b(del_node|del_edge|add_edge|def_feat|shift|shift_in|shift_out|append_feats|prepend_feats)\\b"
+				"match": "\\b(add_node|del_node|del_edge|add_edge|del_feat|shift|shift_in|shift_out|append_feats|prepend_feats)\\b"
 			}]
 		},
 		"strat_operator": {
